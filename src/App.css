@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.childContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label, input, button {
+    margin: 10px 0px;
+}
+
+label {
+    font-size: 25px;
+}
+
+
+input {
+    width: 450px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px
+}
+
+button {
+    outline: none;
+    padding: 10px 40px;
+    font-size: 22px;
+    background: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.welcomePage {
+    font-size: 25px;
+}
